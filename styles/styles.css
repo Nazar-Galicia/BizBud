@@ -1,3 +1,5 @@
-h1 {
-    font-family: 'Avenir', sans-serif;
+.section-subtitle {
+    color: var(--primary-color);
+    font-family: 'OpenSans', sans-serif;
+    letter-spacing: 1.6px;
 }

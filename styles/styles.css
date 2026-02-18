@@ -38,3 +38,9 @@ html {
     justify-content: space-between;
     column-gap: 15px;
 }
+.header__logo {
+    font-size: 1.44rem;
+    color: var(--main-text-color);
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+}

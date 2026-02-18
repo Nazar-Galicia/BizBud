@@ -36,11 +36,20 @@ html {
 .header__navigation-list {
     display: flex;
     justify-content: space-between;
-    column-gap: 15px;
+    column-gap: 20px;
 }
 .header__logo {
     font-size: 1.44rem;
     color: var(--main-text-color);
     font-family: 'Helvetica', sans-serif;
     font-weight: bold;
+}
+.header__navigation-list-link {
+    font-family: arial, sans-serif;
+    color: var(--main-text-color);
+    transition: all 0.3s;
+
+    &:hover {
+        color: var(--header-link-hover-color);
+    }
 }

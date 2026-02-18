@@ -1,5 +1,5 @@
 html {
-    font-size: 18px;
+    font-size: var(--root-font-size);
 }
 
 .section-subtitle {
@@ -11,4 +11,30 @@ html {
     color: var(--main-text-color);
     font-family: 'Helvetica', sans-serif;
     font-size: 2rem;
+}
+.button {
+    background-color: var(--primary-color);
+    font-family: Arial, sans-serif;
+    color: white;
+    padding: 16px 21px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover {
+        background-color: var(--button-hover-color);
+    }
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+.header__navigation-list {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 15px;
 }

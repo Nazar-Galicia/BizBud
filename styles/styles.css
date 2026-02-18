@@ -1,5 +1,14 @@
+html {
+    font-size: 18px;
+}
+
 .section-subtitle {
     color: var(--primary-color);
     font-family: 'OpenSans', sans-serif;
-    letter-spacing: 1.6px;
+    font-size: 0.89rem;
+}
+.section-heading {
+    color: var(--main-text-color);
+    font-family: 'Helvetica', sans-serif;
+    font-size: 2rem;
 }

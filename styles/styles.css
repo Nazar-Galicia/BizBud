@@ -53,3 +53,14 @@ html {
         color: var(--header-link-hover-color);
     }
 }
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    max-height: 1454px;
+    background-image: url('../img/bg1.avif');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+}

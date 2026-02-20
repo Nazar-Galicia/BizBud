@@ -197,3 +197,50 @@ main {
     line-height: 30.6px;
     max-width: 433px;
 }
+
+.feedbacks {
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: 80px 0 60px 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+    text-align: center;
+}
+.section-subtitle--color-white {
+    color: white;
+}
+.feedbacks__feedback-card-quote {
+    font-size: 2.889rem;
+    font-family: 'Helvetica', sans-serif;
+    max-width: 675px;
+}
+.feedbacks__feedback-card-author-container {
+    margin-top: 60px;
+}
+.feedbacks__feedback-card-author-name {
+    font-family: "OpenSans", sans-serif;
+    font-size: 1rem;
+}
+.feedbacks__feedback-card-company-name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+.feedbacks__pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+.feedbacks__paginataion-dot {
+    --wh: 5px;
+
+    display: block;
+    width: var(--wh);
+    height: var(--wh);
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+}

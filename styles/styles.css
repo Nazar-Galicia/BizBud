@@ -85,3 +85,36 @@ html {
     max-width: 465px;
     line-height: 38.4px;
 }
+
+.services {
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 60px;
+}
+.services__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.services__card-heading {
+    color: var(--main-text-color);
+    font-family: "OpenSans", sans-serif;
+    line-height: 19.2px;
+}
+.services__card-paragraph {
+    color: var(--main-text-color);
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    max-width: 300px;
+    line-height: 27px;
+    margin-top: 10px;
+}
+.services .section-heading {
+    max-width: 400px;
+    margin-top: 40px;
+}

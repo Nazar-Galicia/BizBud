@@ -70,7 +70,7 @@ main {
     flex-direction: column;
     row-gap: 30px;
     align-items: flex-start;
-    padding: 50px 150px;
+    padding: 50px 9%;
 }
 .hero__heading {
     font-size: 5rem;

@@ -136,6 +136,7 @@ main {
     flex-direction: column;
     align-items: center;
     row-gap: 60px;
+    text-align: center;
 }
 .section-heading--color-white {
     color: white;

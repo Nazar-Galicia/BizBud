@@ -103,6 +103,11 @@ main {
     justify-content: space-between;
     align-items: center;
     width: 90%;
+    flex-wrap: wrap;
+}
+.services__card {
+    display: block;
+    margin: 0 auto;
 }
 .services__card-heading {
     color: var(--main-text-color);

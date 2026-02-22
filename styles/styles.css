@@ -280,3 +280,22 @@ main {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+.footer__info-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 10%;
+    padding: 100px 0
+}
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+
+    font-size: 1rem;
+    color: var(--main-text-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}

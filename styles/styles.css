@@ -325,6 +325,10 @@ main {
 
 .footer__send-message-form {
     max-width: 465px;
+
+    & .button {
+        margin-top: 60px;
+    }
 }
 .footer__send-message-form-input {
     width: 100%;

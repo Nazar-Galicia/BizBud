@@ -8,6 +8,7 @@ main {
 .section-subtitle {
     color: var(--primary-color);
     font-family: 'OpenSans', sans-serif;
+    font-weight: 700;
     font-size: 0.89rem;
 }
 .section-heading {
@@ -234,6 +235,7 @@ main {
 }
 .feedbacks__feedback-card-author-name {
     font-family: "OpenSans", sans-serif;
+    font-weight: 700;
     font-size: 1rem;
 }
 .feedbacks__feedback-card-company-name {
@@ -319,4 +321,30 @@ main {
 }
 .section-heading--margin-top {
     margin-top: 20px;
+}
+
+.footer__send-message-form {
+    max-width: 465px;
+}
+.footer__send-message-form-input {
+    width: 100%;
+    border-bottom: 1px solid var(--main-text-color);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7px 0;
+
+    &:hover {
+        border-bottom: 2px solid var(--primary-color);
+    }
+}
+.footer__send-message-form-input-label {
+    font-family: "OpenSans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.footer__send-message-form-name-container {
+    display: flex;
+    column-gap: 30px;
+}
+.footer__send-message-form-input-container {
+    margin-top: 50px;
 }

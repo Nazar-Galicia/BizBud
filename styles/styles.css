@@ -298,4 +298,25 @@ main {
     color: var(--main-text-color);
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
+    margin-top: 40px;
+}
+.footer__contacts-socials {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-top: 40px;
+}
+.footer__social-button {
+    --wh: 25px;
+
+    max-width: var(--wh);
+    max-height: var(--wh);
+    cursor: pointer;
+}
+.footer__social-button-img {
+    width: 100%;
+    height: auto;
+}
+.section-heading--margin-top {
+    margin-top: 20px;
 }

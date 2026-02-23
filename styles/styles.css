@@ -113,6 +113,7 @@ main {
 .services__card-heading {
     color: var(--main-text-color);
     font-family: "OpenSans", sans-serif;
+    font-weight: 700;
     line-height: 19.2px;
 }
 .services__card-paragraph {

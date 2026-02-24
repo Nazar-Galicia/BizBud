@@ -159,11 +159,11 @@
                 </div>
             </section>
 
-            <form class="footer__send-message-form" action="#">
+            <form novalidate data-send-message-form class="footer__send-message-form" action="#">
                 <div class="footer__send-message-form-name-container">
                     <div class="footer__send-message-form-input-container">
                         <label class="footer__send-message-form-input-label" for="nameInput">Ім'я</label>
-                        <input class="footer__send-message-form-input" id="nameInput" type="text">
+                        <input class="footer__send-message-form-input" id="nameInput" type="text" required>
                     </div>
                     <div class="footer__send-message-form-input-container">
                         <label class="footer__send-message-form-input-label" for="surnameInput">Прізвище</label>
@@ -172,13 +172,18 @@
                 </div>
                 <div class="footer__send-message-form-input-container">
                     <label class="footer__send-message-form-input-label" for="emailInput">Ел. пошта</label>
-                    <input class="footer__send-message-form-input" id="emailInput" type="email">
+                    <input
+                            class="footer__send-message-form-input"
+                            pattern="^[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}$"
+                            id="emailInput"
+                            type="email"
+                            required>
                 </div>
                 <div class="footer__send-message-form-input-container">
                     <label class="footer__send-message-form-input-label" for="messageInput">Залиште повідомлення…</label>
                     <textarea rows="3" class="footer__send-message-form-input" id="messageInput"></textarea>
                 </div>
-                <button class="button">Надіслати</button>
+                <button class="button" type="submit">Надіслати</button>
             </form>
         </div>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3126.067825727469!2d30.520239976916855!3d50.44947538743351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce50e1e5ab31%3A0xb9350a2886e253c0!2z0LLRg9C70LjRhtGPINCl0YDQtdGJ0LDRgtC40LosIDIyLCDQmtC40ZfQsiwgMDIwMTQ!5e1!3m2!1suk!2sua!4v1771163241117!5m2!1suk!2sua" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

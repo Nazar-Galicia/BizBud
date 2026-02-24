@@ -6,6 +6,15 @@ main {
     width: 100%;
 }
 
+@keyframes scroll {
+    from {
+        opacity: 0;
+        translate: 0 100px;
+    }
+}
+.show {
+    animation: scroll 1.5s;
+}
 .section-subtitle {
     color: var(--primary-color);
     font-family: 'OpenSans', sans-serif;

@@ -1,4 +1,5 @@
 import { scrollAnimation } from "./animation.js";
+import {Validation} from "./validation.js";
 
 const sectionHeadings = document.querySelectorAll(".section-heading"); // 3
 const sectionSubtitles = document.querySelectorAll(".section-subtitle"); // 2
@@ -24,3 +25,4 @@ const animatedElements = [
 ];
 
 scrollAnimation(...animatedElements);
+new Validation();

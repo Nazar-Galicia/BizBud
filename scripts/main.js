@@ -23,6 +23,4 @@ const animatedElements = [
     ...aboutUsParagraphs,
 ];
 
-console.log(animatedElements)
-
 scrollAnimation(...animatedElements);

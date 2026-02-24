@@ -1,7 +1,7 @@
 const observerOptions = {
     root: null,
     rootMargin: '0px',
-    threshold: 0.01,
+    threshold: 0.1,
 }
 const observerCallback = (entries, observer) => {
     entries.forEach(entry => {

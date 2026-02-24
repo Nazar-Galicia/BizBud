@@ -15,3 +15,11 @@ const observerCallback = (entries, observer) => {
         }
     })
 }
+
+const observer = new IntersectionObserver(observerCallback, observerOptions)
+
+export const scrollAnimation = (...elements) => {
+    elements.forEach((element) => {
+        observer.observe(element)
+    })
+}

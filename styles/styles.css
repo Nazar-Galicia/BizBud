@@ -364,6 +364,9 @@ main {
         border-bottom: 2px solid var(--primary-color);
     }
 }
+.input-error {
+    border-bottom: 2px solid red;
+}
 .footer__send-message-form-input-label {
     font-family: "OpenSans", sans-serif;
     font-style: normal;

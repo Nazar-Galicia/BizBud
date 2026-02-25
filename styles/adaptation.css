@@ -2,6 +2,7 @@
     .header {
         column-gap: 20px;
     }
+
     .header__navigation {
         display: none;
         position: fixed;
@@ -13,17 +14,22 @@
         align-items: center;
         justify-content: center;
     }
+
     .header__navigation-list {
         flex-direction: column;
         align-items: center;
         row-gap: 20px;
     }
+
     .header__burger-button {
         display: flex;
     }
+
     .button--header-button {
         width: 50%;
     }
+
     .header__navigation-list-link {
         font-size: 1.22rem;
     }
+}

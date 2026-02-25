@@ -1,0 +1,19 @@
+@media (max-width: 832px) {
+    .header__navigation {
+        position: fixed;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 500;
+        background-color: white;
+        align-items: center;
+        justify-content: center;
+    }
+    .header__navigation-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header__burger-button {
+        display: block;
+    }
+}

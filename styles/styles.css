@@ -52,6 +52,9 @@ main {
     background-color: white;
     border-bottom: 1px solid #e3e3e3;
 }
+.header__navigation {
+    display: flex;
+}
 .header__navigation-list {
     display: flex;
     justify-content: space-between;
@@ -71,6 +74,9 @@ main {
     &:hover {
         color: var(--header-link-hover-color);
     }
+}
+.header__burger-button {
+    display: none;
 }
 
 .hero {

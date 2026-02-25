@@ -82,12 +82,24 @@ main {
     flex-direction: column;
     justify-content: space-between;
 
-    min-width: var(--wh);
+    width: var(--wh);
     min-height: var(--wh);
     z-index: 600;
 
     &.cross {
-        background-color: red;
+        & .header__burger-button-line:nth-child(1) {
+            transform-origin: top left;
+            rotate: 45deg;
+            width: 40px;
+        }
+        & .header__burger-button-line:nth-child(2) {
+            opacity: 0;
+        }
+        & .header__burger-button-line:nth-child(3) {
+            transform-origin: top left;
+            rotate: -45deg;
+            width: 40px;
+        }
     }
 }
 .header__burger-button-line {

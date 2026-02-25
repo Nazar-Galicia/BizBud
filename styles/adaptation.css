@@ -1,5 +1,9 @@
 @media (max-width: 832px) {
+    .header {
+        column-gap: 20px;
+    }
     .header__navigation {
+        display: none;
         position: fixed;
         inset: 0;
         width: 100%;
@@ -15,5 +19,8 @@
     }
     .header__burger-button {
         display: flex;
+    }
+    .button--header-button {
+        width: 50%;
     }
 }

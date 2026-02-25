@@ -85,12 +85,17 @@ main {
     min-width: var(--wh);
     min-height: var(--wh);
     z-index: 600;
+
+    &.cross {
+        background-color: red;
+    }
 }
 .header__burger-button-line {
     width: 100%;
     height: 2px;
     background-color: var(--main-text-color);
     border-radius: 10px;
+    transition: all 0.5s;
 }
 
 .hero {

@@ -12,6 +12,16 @@ main {
         translate: 0 100px;
     }
 }
+@keyframes openNav {
+    from {
+        opacity: 0;
+    }
+}
+@keyframes closeNav {
+    to {
+        opacity: 0;
+    }
+}
 .show {
     animation: scroll 1.5s;
 }
@@ -55,6 +65,15 @@ main {
 }
 .header__navigation {
     display: flex;
+    transition: all 0.3s;
+
+    &.open {
+        display: flex;
+        animation: openNav 0.3s;
+    }
+    &.close {
+        animation: closeNav 0.3s;
+    }
 }
 .header__navigation-list {
     display: flex;

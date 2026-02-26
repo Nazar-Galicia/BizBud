@@ -32,4 +32,8 @@
     .header__navigation-list-link {
         font-size: 1.22rem;
     }
+    .stats__list {
+        flex-direction: column;
+        row-gap: 30px;
+    }
 }

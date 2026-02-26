@@ -39,4 +39,12 @@
     .about-us {
         flex-direction: column;
     }
+    .about-us__text-container,
+    .about-us__background-container {
+        width: 100%;
+    }
+    .about-us__text-container {
+        text-align: center;
+        align-items: center;
+    }
 }

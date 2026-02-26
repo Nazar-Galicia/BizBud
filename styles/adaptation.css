@@ -55,6 +55,15 @@
     .footer__contacts-container {
         text-align: center;
     }
+    .hero {
+        align-items: center;
+        text-align: center;
+        background-attachment: local;
+        background-size: 150% 60%;
+        background-position: bottom;
+        margin: 0;
+        max-height: 500px;
+    }
 }
 @media (max-width: 500px) {
     .footer__send-message-form-name-container {

@@ -36,4 +36,7 @@
         flex-direction: column;
         row-gap: 30px;
     }
+    .about-us {
+        flex-direction: column;
+    }
 }

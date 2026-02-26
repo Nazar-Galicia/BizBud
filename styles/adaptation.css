@@ -64,6 +64,9 @@
         margin: 0;
         max-height: 500px;
     }
+    .footer__send-message-form {
+        padding: 0 15px;
+    }
 }
 @media (max-width: 500px) {
     .footer__send-message-form-name-container {

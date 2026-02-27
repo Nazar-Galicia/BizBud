@@ -23,6 +23,9 @@ a {
     text-decoration: none;
     color: inherit;
 }
+a, button {
+    -webkit-tap-highlight-color: transparent;
+}
 ul, ol, menu {
     list-style: none;
 }

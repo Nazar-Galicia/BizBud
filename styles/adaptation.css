@@ -67,6 +67,12 @@
     .footer__send-message-form {
         padding: 0 15px;
     }
+    .feedbacks__feedback-card-quote {
+        font-size: 2rem;
+    }
+    .feedbacks__feedback-card {
+        padding: 0 15px;
+    }
 }
 @media (max-width: 500px) {
     .footer__send-message-form-name-container {

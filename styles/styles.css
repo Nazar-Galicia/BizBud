@@ -329,6 +329,11 @@ main {
     border-radius: 50%;
     background-color: white;
     cursor: pointer;
+    transition: all 0.2s;
+
+    &:hover {
+        background-color: #a1a1a1;
+    }
 }
 
 .section-subtitle--color-dark {

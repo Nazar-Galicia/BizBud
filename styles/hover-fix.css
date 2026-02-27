@@ -1,0 +1,28 @@
+@media (hover: hover) and (pointer: fine) {
+    .button:hover {
+        background-color: var(--button-hover-color);
+    }
+    .header__navigation-list-link:hover {
+        color: var(--header-link-hover-color);
+    }
+    .feedbacks__paginataion-dot:hover {
+        background-color: #a1a1a1;
+    }
+    .footer__send-message-form-input:hover {
+        border-bottom: 2px solid var(--primary-color);
+    }
+}
+@media (hover: none) and (pointer: coarse) {
+    .button:active {
+        background-color: var(--button-hover-color);
+    }
+    .header__navigation-list-link:active {
+        color: var(--header-link-hover-color);
+    }
+    .feedbacks__paginataion-dot:active {
+        background-color: #a1a1a1;
+    }
+    .footer__send-message-form-input:active {
+        border-bottom: 2px solid var(--primary-color);
+    }
+}

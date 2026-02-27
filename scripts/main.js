@@ -1,6 +1,7 @@
 import { scrollAnimation } from "./animation.js";
 import {Validation} from "./validation.js";
 import {burger, toggleNavMenu, headerNavigation, closeByLink} from "./open-nav-menu.js";
+import {paginationContainer, switchFeedback} from "./feedbacks-preview.js";
 
 const sectionHeadings = document.querySelectorAll(".section-heading"); // 3
 const sectionSubtitles = document.querySelectorAll(".section-subtitle"); // 2
@@ -27,6 +28,8 @@ const animatedElements = [
 
 scrollAnimation(...animatedElements);
 new Validation();
+
+paginationContainer.addEventListener("click", switchFeedback)
 
 burger.addEventListener('click', toggleNavMenu);
 headerNavigation.addEventListener('click', closeByLink);

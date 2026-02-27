@@ -42,16 +42,20 @@ const renderText = (index) => {
     feedbackName.textContent = feedback.fullName;
     feedbackCompany.textContent = feedback.company;
 }
-
-const switchFeedback = (event) => {
-    index = Array.from(paginationDots).indexOf(event.target) || 0;
+const intervalCallback = () => {
+    index < reviews.length - 1 ? index++ : index = 0;
     renderText(index);
 }
 
-setInterval(() => {
-    index < reviews.length - 1 ? index++ : index = 0;
-    renderText(index);
+const intervalTime = 7000;
 
-}, 6000)
+let interval = setInterval(intervalCallback, intervalTime)
+
+const switchFeedback = (event) => {
+    index = Array.from(paginationDots).indexOf(event.target) || 0;
+    clearInterval(interval);
+    renderText(index);
+    interval = setInterval(intervalCallback, intervalTime)
+}
 
 export {paginationContainer, switchFeedback};

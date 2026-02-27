@@ -33,14 +33,25 @@ const feedbackText = document.querySelector('.feedbacks__feedback-card-quote');
 const feedbackName = document.querySelector('.feedbacks__feedback-card-author-name');
 const feedbackCompany = document.querySelector('.feedbacks__feedback-card-company-name');
 
-const switchFeedback = (event) => {
-    let index = Array.from(paginationDots).indexOf(event.target);
+let index = 0;
+
+const renderText = (index) => {
     let feedback = reviews[index];
 
     feedbackText.textContent = feedback.text;
     feedbackName.textContent = feedback.fullName;
     feedbackCompany.textContent = feedback.company;
-
 }
+
+const switchFeedback = (event) => {
+    index = Array.from(paginationDots).indexOf(event.target) || 0;
+    renderText(index);
+}
+
+setInterval(() => {
+    index < reviews.length - 1 ? index++ : index = 0;
+    renderText(index);
+
+}, 6000)
 
 export {paginationContainer, switchFeedback};

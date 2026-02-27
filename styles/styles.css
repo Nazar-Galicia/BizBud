@@ -321,7 +321,7 @@ main {
     column-gap: 10px;
 }
 .feedbacks__paginataion-dot {
-    --wh: 5px;
+    --wh: 7px;
 
     display: block;
     width: var(--wh);
